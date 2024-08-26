@@ -77,9 +77,9 @@ def create_excel_for_repo(repo_name, server_names):
 
 def main():
     repositories = [
-        "https://pelin.erdogan:d5nVRzKg2Va4AR-rwvBz@git.odeal.com/odeal/devops/internal-nginx-configs.git",
-        "https://pelin.erdogan:d5nVRzKg2Va4AR-rwvBz@git.odeal.com/odeal/devops/prod-nginx-configs.git",
-        "https://pelin.erdogan:d5nVRzKg2Va4AR-rwvBz@git.odeal.com/odeal/devops/stage-nginx-configs.git"
+        "https://pelin.erdogan:*-rwvBz@git.odeal.com/odeal/devops/internal-nginx-configs.git",
+        "https://pelin.erdogan:*-rwvBz@git.odeal.com/odeal/devops/prod-nginx-configs.git",
+        "https://pelin.erdogan:*-rwvBz@git.odeal.com/odeal/devops/stage-nginx-configs.git"
     ]
 
     destination_directory = "./cloned_repos"
